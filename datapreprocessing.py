@@ -1,7 +1,7 @@
 import os
-from merge import merge_file
-from filter_age import age_filter
-from filter_nation import nationality
+import pandas as pd
+from merge import merge_func
+
 # change on current working directory 
 # os.chdir('/home/code')
 print("Current Working Directory:", os.getcwd())
@@ -12,12 +12,14 @@ books_file = 'BX-Books.csv'
 users_file = 'BX-Users.csv'
 output_file = 'Final_Merged.csv'
 
-age_filter()
+# Read data from CSV files
+ratings_file = pd.read_csv(ratings_file)
+books_file = pd.read_csv(books_file)
+users_file = pd.read_csv(users_file)
 
-nationality()
 
 # calling merge function that merge base on user id, ISBN and ratings
-merge_file()
+merge_func(ratings_file, books_file, users_file)
 
 
 
