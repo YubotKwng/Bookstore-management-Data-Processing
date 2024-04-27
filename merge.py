@@ -17,7 +17,7 @@ ratings_df = pd.read_csv(ratings_file)
 books_df = pd.read_csv(books_file)
 users_df = pd.read_csv(users_file)
 
-def merge_func (ratings_file, books_file, users_file):
+def merge_func (ratings_df, books_df, users_df):
     # First merge: Ratings with Books on 'ISBN'
     ratings_books_merged = pd.merge(ratings_df, books_df, on='ISBN', how='inner')
 
@@ -27,5 +27,5 @@ def merge_func (ratings_file, books_file, users_file):
     # Save the merged DataFrame to a new CSV file
     final_merged_df.to_csv(output_file, index=False)
 
-
+merge_func (ratings_df, books_df, users_df)
 

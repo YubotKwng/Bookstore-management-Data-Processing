@@ -1,4 +1,4 @@
-import panda as pd
+import pandas as pd
 import re
 
 ratings_file = 'BX-Ratings.csv'
