@@ -53,5 +53,10 @@ ratings_df['Book-Rating'] = ratings_df['Book-Rating'].astype(str)
 
 # there was no need to filter out the Book-Rating column because all entries were valid
 
+# filter out to users who have left >=100 ratings
+ratings_count = ratings_df.groupby('User-ID').size()
+if 
+    
+
 print(ratings_df)
 
