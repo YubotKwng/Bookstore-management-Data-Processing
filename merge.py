@@ -1,17 +1,5 @@
 import pandas as pd
 
-# Define file names
-ratings_file = 'BX-Ratings.csv'
-# Using cleaned books instead
-books_file = 'cleaned_Books.csv'
-users_file = 'BX-Users.csv'
-output_file = 'Book&rating.csv'
-
-# Read data from CSV files
-ratings_df = pd.read_csv(ratings_file)
-books_df = pd.read_csv(books_file)
-users_df = pd.read_csv(users_file)
-
 def merge_rating_book(ratings_df, books_df):
     # First merge: Ratings with Books on 'ISBN'
     ratings_books_merged = pd.merge(ratings_df, books_df, on='ISBN', how='inner')
