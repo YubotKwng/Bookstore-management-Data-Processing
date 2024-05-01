@@ -12,15 +12,13 @@ users_df = pd.read_csv(users_file)
 def filter_city(users_df):
     # Delete rows that contain missing values
     users_df.dropna(subset=['User-City'], inplace=True)
-    users_df = users_df[users_df['User-City'].str.match('^[a-zA-Z]')]
+    users_df = users_df[users_df['User-City'].str.match(r"^[a-zA-Z().\-/'']+$")]
     return users_df
 
 # State filter function
-# Delete rows with length < 3
+# Delete rows with length < 4
 def filter_state(users_df):
-    # Delete rows that contain missing values
-    users_df.dropna(subset=['User-State'], inplace=True)
-    users_df = users_df[users_df['User-State'].str.len() >= 3]
+    users_df = users_df[users_df['User-State'].str.len() >= 4]
     return users_df
 
 # Country filter function
