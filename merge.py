@@ -5,6 +5,7 @@ books_df = pd.read_csv('BX-Books.csv')
 users_df = pd.read_csv('BX-Users.csv')
 
 def merge_rating_book(ratings_df, books_df):
+    
     # First merge: Ratings with Books on 'ISBN'
     ratings_books_merged = pd.merge(ratings_df, books_df, on='ISBN', how='inner')
 
