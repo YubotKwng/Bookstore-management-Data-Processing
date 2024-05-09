@@ -41,7 +41,7 @@ Python - The programming language used.
 Jupyter Notebook - Interactive computational environment.
 NumPy - Package for scientific computing.
 Pandas - Library for data manipulation and analysis.
-Scikit-Learn - Tool for predictive data analysis.
+Scikit-Learn - Library for machine learning and statistical modeling including classification, regression, clustering, and dimensionality reduction.
 Matplotlib - Library for creating static, interactive, and animated visualizations in Python.
 Seaborn - Statistical data visualization library based on matplotlib.
 NLTK - Toolkit for natural language processing.
