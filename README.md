@@ -41,23 +41,21 @@ To successfully run the project notebooks, follow these steps:
     Run all the cells within this notebook to train and evaluate the models. This notebook uses the preprocessed data to fit models, and evaluate the results.
 
 # Built With
-    -Python - The programming language used.
+-Python - The programming language used.
 
-    -Jupyter Notebook - Interactive computational environment.
+-Jupyter Notebook - Interactive computational environment.
 
-    -NumPy - Package for scientific computing.
+-NumPy - Package for scientific computing.
 
-    -Pandas - Library for data manipulation and analysis.
+-Pandas - Library for data manipulation and analysis.
 
-    -Scikit-Learn - Library for machine learning and statistical modeling including classification, regression, clustering, and dimensionality reduction.
+-Scikit-Learn - Library for machine learning and statistical modeling including classification, regression, clustering, and dimensionality reduction.
 
-    -Matplotlib - Library for creating static, interactive, and animated visualizations in Python.
+-Matplotlib - Library for creating static, interactive, and animated visualizations in Python.
 
-    -Seaborn - Statistical data visualization library based on matplotlib.
-    
-    -NLTK - Toolkit for natural language processing.
+-Seaborn - Statistical data visualization library based on matplotlib.
 
-    -VAT - Algorithm introduced from COMP20008 workshop for producing VAT heatmap.
+-VAT - Algorithm introduced from COMP20008 workshop for producing VAT heatmap.
 
 # Authors
 Alexandra Zhang 
