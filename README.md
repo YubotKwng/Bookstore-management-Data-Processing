@@ -1,8 +1,7 @@
 # Eodp-2nd-Asmt
 Eodp 2nd Asmt for Workshop 11 Group 9
 
-# Project Name
-Provide a brief description of the project and its objectives here. Explain what the project aims to achieve, the types of data involved, and the machine learning goals.
+This is a group project analyzes the behavior of highly active users at an online bookstore to enhance user engagement. By focusing on users who frequently rate books, the study identifies key patterns in demographics and preferences. We utilize data preprocessing techniques based on analytics toolkit and regex string matching, combined with k-means clustering and linear regression. The insights aim to guide the bookstore in tailoring its services to better serve its most engaged users, thereby increasing retention and driving growth.
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Follow the steps below to set up your environment and run the necessary notebooks.
