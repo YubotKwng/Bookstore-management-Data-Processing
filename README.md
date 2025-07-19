@@ -1,4 +1,4 @@
-# Eodp-2nd-Asmt
+# Bookstore Management Data Processing
 Eodp 2nd Asmt for Workshop 11 Group 9
 
 This is a group project analyzes the behavior of highly active users at an online bookstore to enhance user engagement. By focusing on users who frequently rate books, the study identifies key patterns in demographics and preferences. We utilize data preprocessing techniques based on analytics toolkit and regex string matching, combined with k-means clustering and linear regression. The insights aim to guide the bookstore in tailoring its services to better serve its most engaged users, thereby increasing retention and driving growth.
